@@ -1,4 +1,4 @@
-Drone Portal
+## Drone Portal
 
 Welcome to the Drone Portal, a web application for managing your drone fleet's configuration, submitting operational data, and reviewing history.
 
@@ -14,23 +14,23 @@ Submit Data: Easily submit new operational data, such as temperature logs, direc
 
 Review History: Access and review the complete, paginated history of all submitted logs to track performance.
 
-Tech Stack
+# Tech Stack
 
 React (or Next.js given the "use client"; directive)
 
 Tailwind CSS
 
-Getting Started
+# Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
-Prerequisites
+# Prerequisites
 
 Node.js (v18 or later recommended)
 
 npm, yarn, or pnpm
 
-Installation & Running
+# Installation & Running
 
 Clone the repository:
 
@@ -38,22 +38,22 @@ git clone [https://github.com/your-username/your-repository-name.git](https://gi
 cd your-repository-name
 
 
-Install dependencies:
+# Install dependencies:
 
-npm install
-# or
-yarn install
-# or
-pnpm install
+# npm install
+or
+# yarn install
+or
+# pnpm install
 
 
 Run the development server:
 
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# npm run dev
+or
+# yarn dev
+or
+# pnpm dev
 
 
 Open http://localhost:3000 with your browser to see the result.
@@ -67,3 +67,5 @@ Configuration: /config
 Submit Log: /submit
 
 View Logs: /logs
+
+# Deploy on vercel https://drone-web-gold.vercel.app
